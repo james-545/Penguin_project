@@ -18,3 +18,6 @@ ggplot(data, aes(x = flipper_length_mm, y = body_mass_g, colour = species)) +
 ggsave("figs/1_flipper_bodymass_regression.png")
 
 penguin_female <- subset(penguins, sex = "female")
+
+x <- 1:10
+x
